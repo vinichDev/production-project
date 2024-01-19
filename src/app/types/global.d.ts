@@ -1,4 +1,4 @@
-declare module "*.module.scss" {
+declare module '*.module.scss' {
     interface  ICLassNames {
         [className: string]: string
     }
@@ -6,10 +6,10 @@ declare module "*.module.scss" {
     export = classNames;
 }
 
-declare module "*.jpg";
-declare module "*.jpeg";
-declare module "*.png";
-declare module "*.svg" {
+declare module '*.jpg';
+declare module '*.jpeg';
+declare module '*.png';
+declare module '*.svg' {
     const SVG: React.FC<React.SVGProps<SVGSVGElement>>;
     export default SVG;
 }
