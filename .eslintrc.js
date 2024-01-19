@@ -7,9 +7,10 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:react/jsx-runtime',
-        "@feature-sliced/eslint-config/rules/import-order",
-        "@feature-sliced/eslint-config/rules/public-api",
-        "@feature-sliced/eslint-config/rules/layers-slices",
+        '@feature-sliced/eslint-config/rules/import-order',
+        '@feature-sliced/eslint-config/rules/public-api',
+        '@feature-sliced/eslint-config/rules/layers-slices',
+        "plugin:i18next/recommended"
     ],
     'overrides': [
         {
@@ -31,7 +32,8 @@ module.exports = {
     },
     'plugins': [
         '@typescript-eslint',
-        'react'
+        'react',
+        'i18next'
     ],
     'rules': {
         'indent': [
