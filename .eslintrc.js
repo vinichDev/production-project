@@ -10,7 +10,7 @@ module.exports = {
         '@feature-sliced/eslint-config/rules/import-order',
         '@feature-sliced/eslint-config/rules/public-api',
         '@feature-sliced/eslint-config/rules/layers-slices',
-        "plugin:i18next/recommended"
+        'plugin:i18next/recommended'
     ],
     'overrides': [
         {
@@ -54,5 +54,9 @@ module.exports = {
         ],
         '@typescript-eslint/no-unused-vars': 1,
         '@typescript-eslint/ban-ts-comment': 0,
+        'max-len': ['error', {
+            'ignoreComments': true,
+            'code': 100,
+        }]
     }
 };
